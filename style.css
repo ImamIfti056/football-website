@@ -199,9 +199,15 @@ header{
 
 /* Sign UP */
 .sign-up{
+    background-color: rgba(252, 165, 179, 0.568);
+    padding: 40px 20px;
     text-align: center;
     width: 40%;
     margin: 80px auto;
+    border-radius: 10px;
+}
+.sign-up:hover{
+    transform: scale(1.01);
 }
 
 .sign-up h2{
@@ -222,6 +228,7 @@ header{
     color: #fff;
     font-size: 16px;
     border: none;
+    border-radius: 5px;
     padding: 10px 0;
 }
 /* --------Footer------- */
